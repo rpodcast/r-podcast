@@ -17,6 +17,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 	guests = "/:filename/"
 	resources = "/:filename/"
 	articles = "/articles/:year/:month/:day/:title/"
+	shinydevseries = "/shinydevseries/:filename/"
 
 [taxonomies]
   tag = "tags"
@@ -55,6 +56,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = "Articles"
     identifier = "articles"
     url = "/articles"
+    
+[[Menu.Main]]
+    name = "Shiny Developer Series"
+    identifier = "shinydevseries"
+    url = "/shinydevseries"
 
 [params]
 site_theme = "blue"
@@ -69,7 +75,7 @@ mailchimp_subscribe = "//r-podcast.us14.list-manage.com/subscribe/post?u=0609900
 description = "Giving practical advice on how to use R for powerful and innovative data analyses."
 media_prefix = "https://aphid.fireside.fm/d/1437767933/487fd4f7-8859-4de4-98de-25634d400177/"
   [params.feed]
-    feed_copyright = "Copyright 2017 Eric Nantz" #do not use markdown in this field; it is used in the feed
+    feed_copyright = "Copyright 2019 Eric Nantz" #do not use markdown in this field; it is used in the feed
     itunes_subtitle = "" #no markdown or HTML
     itunes_author = "Eric Nantz" #no markdown or HTML
     itunes_summary = "The R-Podcast is a podcast for both new and experienced R users who want to learn more about using R to conduct innovative data analyses." # Limited to 4000 characters or less, plain text, no HTML
