@@ -1,7 +1,7 @@
 ---
 title: "Episode 0: Series Overview"
 subtitle: "Shiny Developer Series"
-author: "Eric Nantz <br> <a href='https://twitter.com/thercast'> <i class='fab  fa-twitter '></i>@thercast</a> <br> <a href='https://github.com/thercast'> <i class='fab  fa-github '></i>thercast</a> <br> <i class='fas  fa-microphone '></i>  <a href='https://r-podcast.org'>r-podcast.org</a><br>"
+author: "Eric Nantz <br> <a href='https://twitter.com/thercast'> <i class='fab  fa-twitter '></i>@thercast</a> <br> <a href='https://github.com/rpodcast'> <i class='fab  fa-github '></i>rpodcast</a> <br> <i class='fas  fa-microphone '></i>  <a href='https://r-podcast.org'>r-podcast.org</a><br>"
 date: "<br>Video available at <a href='https://shinydevseries.com'>shinydevseries.com</a>"
 output:
   xaringan::moon_reader:
